@@ -1,0 +1,18 @@
+:root {
+    /* COLORES */
+    --color-amarillo: #eac926;
+    --color-azul:#03264C;
+    --color-celeste:#1259c3;
+    --color-grisOscuro:#666;
+    --color-grisClaro:#ebebeb;
+    --color-Verde:#39b54a;
+    --color-Negro:#000;
+    --color-Blanco:#fff;
+    /* FUENTES */
+    --font-roboto: 'Roboto';
+    /* Tamaños de fuentes */
+    --paragraph:12px;
+    --title: 24px;
+    --prices: 18px;
+    --discounts-descriptions: 16px;
+}

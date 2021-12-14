@@ -1,0 +1,163 @@
+/* Banner */
+.banner {
+    display: none;
+}
+
+
+/* Main */
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+main article {
+    margin: 10px 0px;
+}
+
+#precios {
+    font-family: var(--font-roboto);
+    font-size: 18px;
+}
+
+#descuentos {
+    font-family: var(--font-roboto);
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+
+
+/* Card */
+.card {
+    background-color: white;
+    margin-bottom: 10px;
+}
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    transition: 400ms;
+}
+
+.card .card-content {
+    padding: 15px;
+    position: relative;
+}
+
+.card .card-content .product-name{
+    display: none;
+}
+.card:hover .card-content .product-name {
+    display: block;
+    transition: 900ms;
+}
+
+
+.card .card-content .icono-truck {
+    border: 1px solid var(--color-Verde);
+    border-radius: 50%;
+    padding: 6px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+    width: fit-content;
+}
+.card:hover .card-content .icono-truck {
+    transform: rotate(-450deg);
+    box-shadow: 0 0 10px var(--color-Verde);
+    transition: 400ms;
+}
+
+.card .card-content .product-info {
+    display: flex;
+    align-items: flex-end;
+
+}
+.card .card-content .product-info p:nth-child(1){
+    flex-grow: 0.1;
+}
+.card .card-content .product-info p:nth-child(2){
+    color: var(--color-Verde);
+    flex-grow: 0.9;
+}
+
+.card .card-content .product-name {
+    color: var(--color-grisOscuro);
+    margin-top: 15px;
+}
+
+
+.card .card-content .icono-truck i {
+    color: var(--color-Verde);
+    font-size: 16px;
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-title {
+    width: 100%;
+}
+
+
+
+
+
+/* Media Queries */
+/* Tablet */
+@media (min-width: 361px) {
+
+    .card {
+        width: 49%;
+    }
+    
+    .card .card-content h4 {
+        display: block;
+    }
+
+    
+}
+
+
+
+/* Desktop */
+@media (min-width: 769px) { 
+    .card {
+        width: 24%;
+    }
+}
+
+@media (min-width: 1024) { 
+    .card {
+        width: 18%;
+    }
+}
+
+
+
+body main section h3 {
+    font-family: var(--font-roboto);
+    font-size: var(--title);
+}
+
+#precios {
+    font-family: var(--font-roboto);
+    font-size: 18px;
+}
+
+#descuentos {
+    font-family: var(--font-roboto);
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+#bottom-list li a i {
+    margin-left: 5px;
+}

@@ -1,0 +1,67 @@
+/* Login */
+
+.login__form {
+    background-color: var(--color-grisClaro);
+    height: 45vh;
+    padding-top: 100px;
+}
+
+.container-login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_form {
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.btn {
+    background-color: var(--color-celeste);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-Blanco);
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 80%;
+}
+.btn:hover {
+    background-color: #0022AA;
+}
+
+@media (min-width: 768px) {
+
+    .container-register {
+        margin: 0 50px;
+    }
+
+    .input_form {
+        width: 60%;
+    }
+
+    .btn {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .login__form {
+        height: 50vh;
+        padding-top: 200px;
+    }
+
+    .input_form {
+        width: 50%;
+    }
+
+    .btn {
+        width: 50%;
+    }
+}
+
+
+
